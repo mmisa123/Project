@@ -1,3 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 20px;
+
+  font-family: font-family: 'Open Sans', sans-serif;
+}
+
+.column{
+  float: right;
+  width: 50%;
+  padding: 15px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column{
+    width: 100%;
+  }
+}
+
 #firstH1{
   text-align: left;
   margin: 20px;
@@ -24,7 +52,7 @@
 
 }
 
-div{
+.firstDiv{
   text-align: center;
   margin-top: 180px;
 }
@@ -41,7 +69,25 @@ div{
   /* width: au */
 }
 
-#secondImage{
+.column{
+
+}
+
+h1{
+  text-align: center;
+}
+
+#readyButton{
+
+
+}
+
+
+
+.column1{
+  background-image: url(bg-footer-top-desktop.svg);
+}
+/* #secondImage{
  position: absolute;
   left: 250px;
 }
@@ -49,34 +95,37 @@ div{
 #thirdImage{
   position: absolute;
   left: 850px;
-}
+} */
 
 #firstNumber{
   font-size: 80px;
   margin-left: 180px;
 }
-#secondNumber{
+
+
+
+/* #secondNumber{
   position: absolute;
   top: 188%;
   right: 20%;
   font-size: 80px;
   margin-left: 180px;
-}
+} */
 
-#numbDesc{
+/* #numbDesc{
   position: absolute;
   top: 210%;
   left: 14%;
   margin-top: 45px;
   font-size: 20px;
 
-}
+} */
 
-#mesgDesc{
+/* #mesgDesc{
   position: absolute;
   top: 210%;
   right: 25%;
   margin-top: 45px;
   font-size: 20px;
-}
+} */
 /* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */

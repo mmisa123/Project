@@ -2,19 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Huddle</title>
+    <title>Huddle Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Challenge.css">
+    <link rel="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <header>
+    <div class="header">
       <h1 id="firstH1">Huddle</h1>
       <!-- <p id="top left">Huddle</p> -->
       <button id="firstButton" type="button" name="buttonTopRight">Try It Free</button>
-    </header>
-  <div>
-
-      <h1 id="secondH2">Build the Community Your Fans Will Love</h1>
+    </div>
+  <div class="firstDiv">
+    <h1 id="secondH2">Build the Community Your Fans Will Love</h1>
     <p id="firstParagraph">Huddle re-imagines the way we build communities. You have a <br>
     voice, but so does your audience. Create connections with your <br>
     users as you engage in genuine discussion</p>
@@ -22,27 +23,84 @@
   </div>
 <img id="firstImage" src="screen-mockups.svg" alt="screen mockups" >
 
-<img id="secondImage" src="icon-communities.svg" alt="">
-
-<img id="thirdImage" src="icon-messages.svg" alt="">
-
-
-
+<div class="row">
+  <div class="column">
+    <img id="secondImage" src="icon-communities.svg" alt="">
     <p id="firstNumber">1.4k+</p>
-    <p id="secondNumber">2.7m+</p>
     <p id="numbDesc">Communities Formed</p>
+  </div>
+  <div class="column">
+    <img id="thirdImage" src="icon-messages.svg" alt="">
+    <p id="secondNumber">2.7m+</p>
+
     <p id="mesgDesc">Messages sent</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img id="fourthImage" src="illustration-grow-together.svg" alt="">
+
+  </div>
+  <div class="column">
     <h3>Grow Together</h3>
     <p>Generate meaningful discussions with your audience and build a strong, loyal community.
     Think of the insightful conversations you miss out on
     on with a feedback form.</p>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="column">
+      <img id="fifthImage" src="illustration-flowing-conversation.svg" alt="">
+  </div>
+  <div class="column">
     <h3>Flowing conversations</h3>
-    <p>You wouldn't paginate a conversation in real life, so why do it online? <br> </p>
-    <p>Our threads have just-in-time loading for a more natural flow</p>
+    <p>You wouldn't paginate a conversation in real life, so why do it online?
+    Our threads have just-in-time loading for a more natural flow</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="illustration-your-users.svg" alt="">
+  </div>
+  <div class="column">
     <h3>Your Users</h3>
+    <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+  </div>
+</div>
+
+<h1>Ready To Build Your Community?</h1>
+
+ <button id="readyButton" type="button" name="button">Get Started For Free</button>
+
+<div class="row">
+  <div class="column">
+    <h3>NEWSLETTER</h3>
+    <p>To receive tips on how to grow your community, sign up to our weekly newsletter. We'll never send you spam or pass on your email address.</p>
+    <input type="text" name="subsButton" value="">
+    <button type="button" name="subsButton">Subscribe</button>
+  </div>
+  <div class="column">
+    <img src="logo.svg" alt="">
+    <p>Free Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+    <p> <img src="icon-phone.svg" alt="">Phone: +1-543-123-4567</p>
+    <p> <img src="icon-email.svg" alt="">example@huddle.com</p>
+  </div>
+</div>
+
+<p>Challenge by Frontend Mentor. Coded by Muhammad Musa Isa.</p>
+
+
+
+
+
+  <!-- <h3>Your Users</h3>
     <p>It takes no time at all to integrate with your App's
     authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
-    <h2>Ready to build your community?</h2>
+    <h2>Ready to build your community?</h2> -->
   </body>
 
 </html>
